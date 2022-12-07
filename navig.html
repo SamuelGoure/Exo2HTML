@@ -17,6 +17,39 @@
      </ul>
     </header>
     <section>
+      <p>
+         <form method="post" action="traitement.php">
+            <fieldset>
+            <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+            <label for="nom">Quel est votre nom ?</label>
+            <input type="text" name="nom" id="nom" />
+            <label for="prenom">Quel est votre prénom ?</label>
+            <input type="text" name="prenom" id="prenom" />
+           
+            </fieldset>
+            <fieldset>
+            <legend>Votre souhait</legend> <!-- Titre du fieldset -->
+            <p>
+            Faites un souhait que vous voudriez voir exaucé :
+            <input type="radio" name="souhait" value="riche"
+            id="riche" /> <label for="riche">Etre riche</label>
+            <input type="radio" name="souhait" value="celebre"
+            id="celebre" /> <label for="celebre">Etre célèbre</label>
+            <input type="radio" name="souhait" value="intelligent"
+            id="intelligent" /> <label for="intelligent">Etre
+            <strong>encore</strong> plus intelligent</label>
+            <input type="radio" name="souhait" value="autre"
+            id="autre" /> <label for="autre">Autre...</label>
+         </p>
+         <p>
+         <label for="precisions">Si "Autre", veuillez préciser
+         :</label>
+         <textarea name="precisions" id="precisions" cols="40"
+         rows="4"></textarea>
+         </p>
+         </fieldset>
+         </form>
+      </p>
      <p>
         <img src="image2/R.jpg" alt="image ordinateur"  title="language de programmation" width="100%"> <br>
         Ceci est un language de programmation  <br>
@@ -38,6 +71,51 @@
         <h1 id="contact"> Contact</h1>
         LoremLorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus? ipsum dolor sit amet consectetur adipisicing elit. Fugiat ad harum eveniet dolorum incidunt tenetur et. Repellendus enim quam veritatis aliquam nemo repellat exercitationem soluta quia molestiae! Eligendi, explicabo minus?
      </p>
+     <p>
+      <table border="1">
+         <tr>
+         <th>Titre du film</th>
+         <td>Massacre à la tronçonneuse</td>
+         <td>Les bisounours font du ski</td>
+         <td>Lucky Luke, seul contre tous</td>
+         </tr>
+         <tr>
+         <th>Pour enfants ?</th>
+         <td>Non, trop violent</td>
+         <td>Oui, adapté</td>
+         <td rowspan="2">Pour toute la famille !</td>
+         </tr>
+         <tr>
+         <th>Pour adolescents ?</th>
+         <td>Oui</td>
+         <td>Pas assez violent...</td>
+         </tr>
+         </table>
+     </p>
+     <p>
+      <video controls poster="gitvideo.mp4" width="600">
+         <source src="gitvideo.mp4" />
+         <source src="gitvideo.mp4" />
+         <source src="gitvideo.mp4" />
+         </video>
+         <br>
+     </p>
+     <p>
+      <audio controls>
+         <source src="ks_bloom.mp3"></source>
+         <source src="ks_bloom.mp3"></source>
+         </audio>
+     </p>
+     <nav>
+         <ul>
+            <li>Ordinateur</li>
+            <li>Musique</li>
+            <li>Chant</li>
+            <li>programmation</li>
+         </ul> <br>
+         <p><a href="https://www.codeur.com">Visiter Codeur.com</a></p> <br>
+         <p><a href="https://www.bing.com/search?q=google&qs=n&form=QBRE&sp=-1&pq=googl&sc=10-5&sk=&cvid=FE9BC32D6C884B138DDC958EB6905DB0&ghsh=0&ghacc=0&ghpl=">Allez à google</a></p>
+     </nav>
     </section>
     <footer>
         <p>© 2022 SAMUEL GOURE</p>
